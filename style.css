@@ -17,11 +17,6 @@ header{
     min-height: 100%;
 }
 
-.container-big {
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-
 .container-nav {
     position: relative;
     max-width: 960px;
@@ -47,12 +42,11 @@ header{
 }
 .contacts {
     display: flex;
-    justify-content: center;
-}
-
-.container-contacts {
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
-    padding-right: 200px;
+
 }
 
 .text-decoration {
@@ -64,10 +58,17 @@ header{
     margin-bottom: 45px;
 }
 
+.round {
+    border-radius: 232px;
+    box-shadow: 0 0 7px #335252;
+}
+
 .contact-icon {
     vertical-align: middle;
     margin-left: 30px;
     margin-right: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 .contact-info {
@@ -103,7 +104,7 @@ hr {
     width: 1150px;
 }
 
-.div-end {
+.section-end {
     background-image: linear-gradient(to right, transparent, rgba(51, 82, 82, 0.5), transparent);
     width: 750px;
 }
@@ -132,8 +133,8 @@ h2 {
   }
 
 .container {
-        max-width: 960px;
-        margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .primary-text-decoration-list {
@@ -154,9 +155,12 @@ footer {
 }
 
 .footer-info {
+    max-width: 1050px;
+    height: 70px;
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .rss {
@@ -172,7 +176,6 @@ footer {
 }
 
 .footer-date {
-    margin: 10px;
     font-weight: 500;
     font-family: 'Rajdhani', sans-serif;
     color: #fff;
